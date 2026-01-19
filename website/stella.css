@@ -1,0 +1,7 @@
+body{border: 3px;display: flow-root;}
+#photo1{
+    float: left;
+    margin-left: 10px;
+}
+#photo2{float: right;
+        margin-right: 10px;}

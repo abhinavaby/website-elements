@@ -1,0 +1,9 @@
+h1{text-shadow: 3px 3px 5px rgb(185, 34, 34),-3px -3px 5px rgb(41, 245, 6)}
+#box{width:100px; height:100px;background-color: rgb(219, 226, 232);box-shadow: 3px 3px 5px;}
+p{margin-left: 0px;}
+.box{border: 5px;
+font-size: 5em;
+width:250px;
+height:250px}
+#box1{border-style: double;background-color: aquamarine;margin: 20px;}
+#box2{border-style: double;background-color: blueviolet;}

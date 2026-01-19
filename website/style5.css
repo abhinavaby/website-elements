@@ -1,0 +1,23 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color: aqua;
+}
+p::selection{
+    color: chartreuse;
+    background-color: black;
+}
+#he li::before{
+    content:"@ ";
+}
+#a::after{
+    content:" $$"
+}
+#he li::marker{
+    content: " a";
+    color: blue;
+}
+
+

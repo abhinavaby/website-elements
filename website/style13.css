@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+}
+#box{
+    width:250px;
+    height: 250px;
+    background-color: aquamarine;
+    font-size: 13em;
+    text-align: center;
+    
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+
+    
+
+}
+#box:hover{
+    animation-name: rotate;
+    animation-duration: 5s;
+}
+@keyframes slideLeft{
+    from{transform: translateX(500px);}
+}
+@keyframes slideRight{
+    to{transform: translateX(500px);}
+}
+@keyframes slideUp{
+    from{transform: translatey(500px);}
+}
+@keyframes slideDown{
+    to{transform: translatey(500px);}
+}
+@keyframes rotate{
+    100%{transform: rotateX(360deg);}
+}
+@keyframes rotate{
+    25%{transform: rotateZ(360deg);}
+}
+@keyframes rotate{
+    50%{transform: rotatey(360deg);}
+}
+@keyframes grow{
+    50%{transform: scale(2,2);}
+}
+@keyframes shrink{
+    50%{transform: scale(0.5,0.5);}
+}
+@keyframes fade{
+    50%{opacity: 0;}
+}
+@keyframes fadeIn{
+    100%{opacity: 1;}
+}
+@keyframes colorchange{
+    0%{background-color: aquamarine}
+    20%{background-color: rgb(247, 127, 15)}
+    40%{background-color: rgb(99, 73, 228)}
+    80%{background-color: rgb(52, 179, 20)}
+    100%{background-color: rgb(184, 12, 21)}
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px yellow;}
+}

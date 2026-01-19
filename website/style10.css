@@ -1,0 +1,14 @@
+.b{
+    display: inline-block;
+    border: 1px solid rgb(94, 94, 195);
+    margin: 5px;
+}
+.b .description{
+    text-align: center;
+
+}
+.b:hover{
+    background-color: rgb(23, 231, 161);
+    border-color: rgb(23, 231, 161);
+    box-shadow: 10px 10px gray;
+}

@@ -1,0 +1,13 @@
+.box{
+    background-color: aqua;
+    border: 2px solid;
+    width:50%;
+    height:auto;
+    padding: 25px;
+    box-sizing: border-box;
+    float:left;
+    text-align: center;
+    margin: 0%;
+    
+}
+body{background-color: blue;}

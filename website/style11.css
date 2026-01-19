@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box{
+    width:150px;
+    height:150px;
+    text-align: center;font-size: 8em;
+    border-radius: 50px;
+    box-shadow: 7px 7px 7px cornflowerblue;
+
+    
+}
+#box1{
+    background-color: chartreuse;
+}
+#box2{background-color: rgb(136, 55, 55);}
+#box3{
+    background-color: darkgoldenrod;
+}
+#box4{
+    background-color: crimson;
+}
